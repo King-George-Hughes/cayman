@@ -1,9 +1,7 @@
-import { pic } from "../assets";
-
 const Hero = () => {
   return (
     <section
-      className={`bg-center bg-no-repeat bg-[url('${pic}')] bg-gray-500 bg-blend-multiply`}
+      className={`bg-center bg-no-repeat bg-[url('/pic.jpg')] w-full bg-gray-500 bg-blend-multiply`}
     >
       <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
