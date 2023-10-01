@@ -1,5 +1,5 @@
 import {
-  BottomNavigation,
+  // BottomNavigation,
   Hero,
   Jambotron,
   NavBar,
@@ -31,11 +31,7 @@ function App() {
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
-            <img
-              className="rounded-t-lg"
-              src="Photo by Mikhail Nilov from Pexels: https://www.pexels.com/photo/employees-standing-in-white-long-sleeve-shirts-holding-and-reading-paperwork-inside-an-office-8297449/"
-              alt=""
-            />
+            <img className="rounded-t-lg" src="/pic.jpg" alt="" />
           </a>
           <div className="p-5">
             <a href="#">
@@ -75,7 +71,7 @@ function App() {
       <Jambotron />
       <Preview />
       {/* <TimeLines /> */}
-      <BottomNavigation />
+      {/* <BottomNavigation /> */}
     </>
   );
 }
