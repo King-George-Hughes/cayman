@@ -15,8 +15,7 @@ const callouts = [
       "Business Process Outsourcing",
       "Stationary Compliance & Registration",
     ],
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg",
+    imageSrc: "/1.jpg",
     imageAlt: "Busines Support Services",
     href: "#",
   },
@@ -30,8 +29,7 @@ const callouts = [
       "HR Audit",
       "Management Training",
     ],
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg",
+    imageSrc: "2.jpg",
     imageAlt: "Human Resource Management",
     href: "#",
   },
@@ -43,8 +41,7 @@ const callouts = [
       "Performance Management",
       "Training and Development",
     ],
-    imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
+    imageSrc: "3.jpg",
     imageAlt: "Talent Management",
     href: "#",
   },
