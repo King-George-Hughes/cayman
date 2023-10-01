@@ -1,12 +1,4 @@
-import {
-  Footer,
-  // BottomNavigation,
-  Hero,
-  Jambotron,
-  NavBar,
-  Services,
-  // TimeLines,
-} from "./components";
+import { Footer, Hero, Jambotron, NavBar, Services } from "./components";
 
 function App() {
   return (
@@ -32,8 +24,6 @@ function App() {
       </div>
       <Services />
       <Jambotron />
-      {/* <TimeLines /> */}
-      {/* <BottomNavigation /> */}
       <Footer />
     </>
   );
