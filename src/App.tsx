@@ -1,4 +1,5 @@
 import {
+  Footer,
   // BottomNavigation,
   Hero,
   Jambotron,
@@ -72,6 +73,7 @@ function App() {
       <Preview />
       {/* <TimeLines /> */}
       {/* <BottomNavigation /> */}
+      <Footer />
     </>
   );
 }
