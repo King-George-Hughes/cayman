@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import TimeLines from "./TimeLines";
 import Services from "./Services";
 import Footer from "./Footer";
+import Heading from "./Heading";
 
 export {
   BottomNavigation,
@@ -14,4 +15,5 @@ export {
   TimeLines,
   Services,
   Footer,
+  Heading,
 };
