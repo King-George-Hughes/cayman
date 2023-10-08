@@ -60,13 +60,11 @@ const Services = () => {
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
               {callouts.map((callout: ServiceData) => (
                 <div className="w-full md:max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-                  <a href="#">
-                    <img
-                      className="rounded-t-lg"
-                      src={callout.imageSrc}
-                      alt={callout.imageAlt}
-                    />
-                  </a>
+                  <img
+                    className="rounded-t-lg"
+                    src={callout.imageSrc}
+                    alt={callout.imageAlt}
+                  />
                   <div className="p-5">
                     <a href="#">
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
