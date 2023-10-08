@@ -6,8 +6,10 @@ import Services from "./Services";
 import Footer from "./Footer";
 import Heading from "./Heading";
 import Layout from "./Layout";
+import Pricing from "./Pricing";
 
 export {
+  Pricing,
   NavBar,
   Hero,
   Jambotron,

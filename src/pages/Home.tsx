@@ -1,4 +1,11 @@
-import { Heading, Hero, Jambotron, Layout, Services } from "../components";
+import {
+  Heading,
+  Hero,
+  Jambotron,
+  Layout,
+  Pricing,
+  Services,
+} from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +15,7 @@ const Home = () => {
         <Heading />
         <Services />
         <Jambotron />
+        <Pricing />
       </Layout>
     </>
   );

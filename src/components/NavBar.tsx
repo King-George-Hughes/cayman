@@ -6,7 +6,7 @@ export default function NavBar() {
 
   const routes = [
     { name: "Home", url: "/" },
-    { name: "Services", url: "/services" },
+    { name: "Packages", url: "/packages" },
     { name: "About", url: "/about" },
     { name: "Contaact Us", url: "/contact-us" },
   ];
@@ -15,7 +15,7 @@ export default function NavBar() {
     <nav className="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
-          <img src="/logooo.jpeg" className="h-8 mr-3" alt="Cayman Logo" />
+          <img src="/logooo.jpeg" className="h-8 w-10 mr-3" alt="Cayman Logo" />
           <span className="hidden lg:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Cayman Ghana Ltd
           </span>
