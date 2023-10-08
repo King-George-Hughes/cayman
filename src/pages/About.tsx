@@ -53,6 +53,23 @@ const About = () => {
             teamwork, and achieving results are woven into every aspect of our
             HR services.
           </p>
+
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-10 md:mt-20 mb-5">
+            Our Objectives.
+          </h2>
+
+          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
+            To provide diversity in Human Resource Consulting services by
+            facilitating identified, necessary change within an organization in
+            order to enhance the success of the company through the improvement
+            in Productivity, Efficiency, Communication, and Employee ethics.
+          </p>
+          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
+            No matter your industry, Cayman Ghana Limited will work with your
+            company to identify needs, develop an action plan, and assist with
+            implementation. Thus we add and retain values to our clients through
+            our excellent team.
+          </p>
         </div>
       </div>
     </Layout>
