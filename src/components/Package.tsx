@@ -11,10 +11,12 @@ const Package = ({ title, subText, price, includedFeatures }: Props) => {
   return (
     <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-gray-200 sm:mt-12 lg:mx-0 lg:flex lg:max-w-none">
       <div className="p-8 sm:p-10 lg:flex-auto">
-        <h3 className="text-2xl font-bold tracking-tight text-gray-900">
+        <h3 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
           {title} Package
         </h3>
-        <p className="mt-6 text-base leading-7 text-gray-600">{subText}</p>
+        <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400">
+          {subText}
+        </p>
         <div className="mt-10 flex items-center gap-x-4">
           <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
             What’s included
@@ -23,7 +25,7 @@ const Package = ({ title, subText, price, includedFeatures }: Props) => {
         </div>
         <ul
           role="list"
-          className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 sm:grid-cols-2 sm:gap-6"
+          className="mt-8 grid grid-cols-1 gap-4 text-sm leading-6 text-gray-600 dark:text-gray-400 sm:grid-cols-2 sm:gap-6"
         >
           {includedFeatures.map((feature) => (
             <li key={feature} className="flex gap-x-3">
@@ -37,16 +39,16 @@ const Package = ({ title, subText, price, includedFeatures }: Props) => {
         </ul>
       </div>
       <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
-        <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
+        <div className="rounded-2xl bg-gray-50 dark:bg-gray-800 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
           <div className="mx-auto max-w-xs px-8">
-            <p className="text-base font-semibold text-gray-600">
+            <p className="text-base font-semibold text-gray-600 dark:text-gray-200">
               {title} / Per Month
             </p>
             <p className="mt-6 flex items-baseline justify-center gap-x-2">
-              <span className="text-5xl font-bold tracking-tight text-gray-900">
+              <span className="text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
                 ₵ {price}
               </span>
-              <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600">
+              <span className="text-sm font-semibold leading-6 tracking-wide text-gray-600 dark:text-gray-300">
                 GHC
               </span>
             </p>
@@ -56,7 +58,9 @@ const Package = ({ title, subText, price, includedFeatures }: Props) => {
             >
               Get access
             </a>
-            <p className="mt-6 text-xs leading-5 text-gray-600">{subText}</p>
+            <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-400">
+              {subText}
+            </p>
           </div>
         </div>
       </div>
