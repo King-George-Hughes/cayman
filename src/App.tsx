@@ -1,21 +1,9 @@
-import {
-  Footer,
-  Heading,
-  Hero,
-  Jambotron,
-  NavBar,
-  Services,
-} from "./components";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Hero />
-      <Heading />
-      <Services />
-      <Jambotron />
-      <Footer />
+      <Home />
     </>
   );
 }
