@@ -29,7 +29,7 @@ const About = () => {
             Our Mission.
           </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2">
+          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
             To provide a needed service in the area of Human Resource Management
             at an affordable cost without compromising on quality.
           </p>
@@ -38,7 +38,7 @@ const About = () => {
             Our Vission.
           </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2">
+          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
             To become a leading support and service provider in the Human
             Resource Consulting industry, to individuals and corporate
             institutions.
@@ -48,13 +48,13 @@ const About = () => {
             Our Core Values.
           </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2">
+          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
             Our core values of customer satisfaction, continuous improvement,
             teamwork, and achieving results are woven into every aspect of our
             HR services.
           </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-10 md:mt-20 mb-5">
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-16 md:mt-20 mb-5">
             Our Objectives.
           </h2>
 
