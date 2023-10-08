@@ -70,10 +70,7 @@ const Jambotron = () => {
                 </li>
               </ul>
             </p>
-            <a
-              href="#"
-              className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center"
-            >
+            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -90,7 +87,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </a>
+            </button>
           </div>
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
             <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-5">
@@ -124,10 +121,7 @@ const Jambotron = () => {
                 </li>
               </ul>
             </p>
-            <a
-              href="#"
-              className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center"
-            >
+            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -144,7 +138,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </a>
+            </button>
           </div>
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
             <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-5">
@@ -178,10 +172,7 @@ const Jambotron = () => {
                 </li>
               </ul>
             </p>
-            <a
-              href="#"
-              className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center"
-            >
+            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -198,7 +189,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </a>
+            </button>
           </div>
         </div>
       </div>

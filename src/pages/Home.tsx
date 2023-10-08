@@ -1,4 +1,5 @@
 import { Heading, Hero, Jambotron, Layout, Services } from "../components";
+import OurClients from "../components/OurClients";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <Heading />
         <Services />
         <Jambotron />
+        <OurClients />
       </Layout>
     </>
   );
