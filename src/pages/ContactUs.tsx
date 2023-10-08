@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 import { Layout } from "../components";
 
@@ -162,6 +161,7 @@ export default function ContactUs() {
             <button
               type="submit"
               className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              onClick={(e) => e.preventDefault()}
             >
               Let's talk
             </button>
