@@ -3,7 +3,7 @@ const Heading = () => {
     <div className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-lg text-start lg:py-16">
         <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center mb-10 md:mb-14">
-          About Cayman Ghana Ltd.
+          Cayman Ghana Ltd.
         </h2>
 
         <p className="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
