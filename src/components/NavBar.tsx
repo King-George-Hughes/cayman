@@ -8,7 +8,7 @@ export default function NavBar() {
     { name: "Home", url: "/" },
     { name: "Packages", url: "/packages" },
     { name: "About", url: "/about" },
-    { name: "Contaact Us", url: "/contact-us" },
+    { name: "Contact Us", url: "/contact-us" },
   ];
 
   return (
