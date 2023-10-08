@@ -70,9 +70,9 @@ const Packages = () => {
               Our Retainer Packages
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-              quasi iusto modi velit ut non voluptas in. Explicabo id ut
-              laborum.
+              Our retainer packages are competitively priced based on the
+              services included and the level of support required. We offer
+              flexible payment options to suit your budget.
             </p>
           </div>
           {packages.map((pkg) => {
