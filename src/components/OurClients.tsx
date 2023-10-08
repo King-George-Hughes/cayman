@@ -22,7 +22,7 @@ export default function OurClients() {
           />
           <img
             className="col-span-2 max-h-10 w-full object-contain lg:col-span-1"
-            src="/clients/axis.jpeg"
+            src="/clients/rijalco.jpeg"
             alt="Reform"
             width={158}
             height={48}
@@ -43,7 +43,7 @@ export default function OurClients() {
           />
           <img
             className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="/clients/rijalco.jpeg"
+            src="/clients/axis.jpeg"
             alt="Statamic"
             width={158}
             height={48}
