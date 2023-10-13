@@ -1,8 +1,9 @@
 interface Props {
   image: string;
+  text: string;
 }
 
-const HeroTop = ({ image }: Props) => {
+const HeroTop = ({ image, text }: Props) => {
   return (
     <>
       <div className="w-full min-h-[350px] relative lg:min-h-[550px]">
@@ -16,7 +17,7 @@ const HeroTop = ({ image }: Props) => {
           <div className="font-poppins text-white">
             <h2 className="text-5xl font-bold relative lg:text-8xl">
               <span className="relative before:absolute before:w-full before:h-[15px] before:left-0 before:right-0 before:bottom-2 before:bg-[#dacb46] before:-z-10 lg:before:w-3/4 lg:before:h-[25px] lg:before:bottom-5">
-                About Us
+                {text}
               </span>
             </h2>
           </div>
