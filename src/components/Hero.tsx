@@ -95,16 +95,16 @@ const Hero = () => {
               <div className="container mx-auto absolute left-0 right-0 bottom-0 w-full h-full z-10 flex items-center justify-center">
                 <div className="font-poppins text-white">
                   <h1
-                    className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl max-w-[80%] mx-auto"
+                    className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl max-w-[90%] mx-auto"
                     onClick={(e) => e.preventDefault()}
                   >
                     {title}
                   </h1>
-                  <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 max-w-[70%] mx-auto">
+                  <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 max-w-[85%] mx-auto">
                     {subText}
                   </p>
 
-                  <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 px-32 lg:px-0">
+                  <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 px-12 lg:px-0">
                     <a
                       href="#services"
                       className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-[#dacb46] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
