@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { useState, useEffect } from "react";
 
 const sliderData = [
@@ -29,7 +29,7 @@ const sliderData = [
 const Hero = () => {
   // Slider
   const sliderBtn =
-    "absolute bottom-[50%] text-center rounded-full p-2 border-none bg-[rgba(255,255,255,0.2)] hover:bg-[rgba(255,255,255,0.4)] shadow-md";
+    "absolute bottom-[0%] text-center p-2 h-full border-none bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.2)] shadow-md";
 
   const slide = sliderData;
   const [index, setIndex] = useState(0);
@@ -60,7 +60,7 @@ const Hero = () => {
 
   return (
     <section
-      className={`bg-center bg-no-repeat bg-[url('images/pic.jpg')] w-full bg-[rgba(0,0,0,0.7)] bg-blend-multiply`}
+      className={`bg-center bg-no-repeat w-full bg-[rgba(0,0,0,0.7)] bg-blend-multiply`}
     >
       {/* Hero Section 1 */}
       <div className="section-center w-full min-h-[400px] flex items-center justify-center overflow-hidden relative lg:min-h-[600px]">
@@ -104,7 +104,7 @@ const Hero = () => {
                     {subText}
                   </p>
 
-                  <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                  <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 px-32 lg:px-0">
                     <a
                       href="#services"
                       className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
@@ -139,11 +139,11 @@ const Hero = () => {
           );
         })}
 
-        <button className={sliderBtn + " left-[5%]"} onClick={prevSlide}>
-          <FaArrowLeft className="text-gray-800 text-xl lg:text-3xl" />
+        <button className={sliderBtn + " left-[0%]"} onClick={prevSlide}>
+          <MdArrowBackIos className="text-gray-400 text-xl lg:text-3xl" />
         </button>
-        <button className={sliderBtn + " right-[5%]"} onClick={nextSlide}>
-          <FaArrowRight className="text-gray-800 text-xl lg:text-3xl" />
+        <button className={sliderBtn + " right-[0%]"} onClick={nextSlide}>
+          <MdArrowForwardIos className="text-gray-400 text-xl lg:text-3xl" />
         </button>
       </div>
     </section>

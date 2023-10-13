@@ -16,7 +16,7 @@ export default function NavBar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
           <img src="/logooo.jpeg" className="h-8 w-10 mr-3" alt="Cayman Logo" />
-          <span className="hidden lg:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="text-md self-center lg:text-2xl font-semibold whitespace-nowrap dark:text-white">
             Cayman Ghana Ltd
           </span>
         </Link>
