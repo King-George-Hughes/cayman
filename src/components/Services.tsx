@@ -15,7 +15,7 @@ const callouts = [
       "Business Process Outsourcing",
       "Stationary Compliance & Registration",
     ],
-    imageSrc: "/1.jpg",
+    imageSrc: "images/1.jpg",
     imageAlt: "Busines Support Services",
     href: "#",
   },
@@ -29,7 +29,7 @@ const callouts = [
       "HR Audit",
       "Management Training",
     ],
-    imageSrc: "2.jpg",
+    imageSrc: "images/2.jpg",
     imageAlt: "Human Resource Management",
     href: "#",
   },
@@ -41,7 +41,7 @@ const callouts = [
       "Performance Management",
       "Training and Development",
     ],
-    imageSrc: "3.jpg",
+    imageSrc: "images/3.jpg",
     imageAlt: "Talent Management",
     href: "#",
   },
@@ -66,11 +66,10 @@ const Services = () => {
                     alt={callout.imageAlt}
                   />
                   <div className="p-5">
-                    <a href="#">
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        {callout.name}
-                      </h5>
-                    </a>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      {callout.name}
+                    </h5>
+
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       <ul>
                         {callout.description.map((desc) => {

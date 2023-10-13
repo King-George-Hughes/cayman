@@ -1,9 +1,10 @@
-import { Layout } from "../components";
+import { HeroTop, Layout } from "../components";
 
 const About = () => {
   return (
     <Layout>
       <div className="bg-white dark:bg-gray-900">
+        <HeroTop image="images/pic2.jpg" />
         <div className="py-16 px-4 mx-auto max-w-screen-lg text-start lg:py-24">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center mb-10 md:mb-14">
             About Cayman Ghana Ltd.

@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Heading from "./Heading";
 import Layout from "./Layout";
 import Package from "./Package";
+import HeroTop from "./HeroTop";
 
 export {
   Package,
@@ -18,4 +19,5 @@ export {
   Footer,
   Heading,
   Layout,
+  HeroTop,
 };
