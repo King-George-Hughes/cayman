@@ -1,4 +1,4 @@
-import { Layout, Package } from "../components";
+import { HeroTop, Layout, Package } from "../components";
 
 const packages = [
   {
@@ -62,6 +62,7 @@ const packages = [
 const Packages = () => {
   return (
     <Layout>
+      <HeroTop image="images/packages.jpg" text="Our Packages" />
       <div className="bg-white dark:bg-gray-900 py-16 sm:py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
@@ -78,6 +79,7 @@ const Packages = () => {
             const { id, title, subText, price, includedFeatures } = pkg;
             return (
               <Package
+                id={id}
                 key={id}
                 title={title}
                 subText={subText}

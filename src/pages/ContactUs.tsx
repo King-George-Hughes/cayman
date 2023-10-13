@@ -135,8 +135,8 @@ export default function ContactUs() {
                   checked={agreed}
                   onChange={setAgreed}
                   className={classNames(
-                    agreed ? "bg-indigo-600" : "bg-gray-400",
-                    "flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    agreed ? "bg-[#dacb46]" : "bg-gray-400",
+                    "flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#dacb46]"
                   )}
                 >
                   <span className="sr-only">Agree to policies</span>
@@ -151,7 +151,7 @@ export default function ContactUs() {
               </div>
               <Switch.Label className="text-sm leading-6 dark:text-gray-400 text-gray-600">
                 By selecting this, you agree to our{" "}
-                <a href="#" className="font-semibold text-indigo-600">
+                <a href="#" className="font-semibold text-[#dacb46]">
                   privacy&nbsp;policy
                 </a>
                 .
@@ -161,7 +161,7 @@ export default function ContactUs() {
           <div className="mt-10">
             <button
               type="submit"
-              className="block w-full rounded-md bg-[#dacb46] px-3.5 py-2.5 text-center text-sm font-semibold text-gray-800 shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="block w-full rounded-md bg-[#dacb46] px-3.5 py-2.5 text-center text-sm font-semibold text-gray-800 shadow-sm hover:bg-[#dacb20] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#dacb46]"
               onClick={(e) => e.preventDefault()}
             >
               Let's talk
