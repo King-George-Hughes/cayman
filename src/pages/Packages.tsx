@@ -69,11 +69,24 @@ const Packages = () => {
             <h2 className="text-3xl font-bold tracking-tight dark:text-gray-200 text-gray-900 sm:text-4xl">
               Our Retainer Packages
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Our retainer packages are competitively priced based on the
-              services included and the level of support required. We offer
-              flexible payment options to suit your budget.
-            </p>
+          </div>
+          <div className="mt-10 pb-5 rounded-b-lg flex items-center flex-col gap-10 lg:flex-row">
+            <div className="w-full lg:w-1/2 mt-3">
+              <img
+                src="/images/pricing.svg"
+                alt=""
+                className="w-full max-w-[600px]"
+              />
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-full">
+                <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+                  Our retainer packages are competitively priced based on the
+                  services included and the level of support required. We offer
+                  flexible payment options to suit your budget.
+                </p>
+              </div>
+            </div>
           </div>
           {packages.map((pkg) => {
             const { id, title, subText, price, includedFeatures } = pkg;
