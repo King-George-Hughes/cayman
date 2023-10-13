@@ -26,7 +26,7 @@ const About = () => {
             implementation, assessment, and other services
           </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-10 md:mt-20 mb-5">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
             Our Mission.
           </h2>
 
@@ -35,7 +35,7 @@ const About = () => {
             at an affordable cost without compromising on quality.
           </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-10 md:mt-20 mb-5">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
             Our Vission.
           </h2>
 
@@ -45,7 +45,7 @@ const About = () => {
             institutions.
           </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-10 md:mt-20 mb-5">
+          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
             Our Core Values.
           </h2>
 

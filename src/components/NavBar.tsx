@@ -54,8 +54,8 @@ export default function NavBar() {
                     to={route.url}
                     className={({ isActive }) =>
                       isActive
-                        ? "block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                        : "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                        ? "block py-2 pl-3 pr-4 text-white bg-[#dacb46] rounded md:bg-transparent md:text-[#dacb46] md:p-0 md:dark:text-[#dacb46] dark:bg-[#dacb46] md:dark:bg-transparent"
+                        : "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#dacb46] md:p-0 dark:text-white md:dark:hover:text-[#dacb46] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     }
                   >
                     {route.name}
@@ -80,8 +80,8 @@ export default function NavBar() {
                       to={route.url}
                       className={({ isActive }) =>
                         isActive
-                          ? "block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                          : "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                          ? "block py-2 pl-3 pr-4 text-gray-800 bg-[#dacb46] rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-gray-800 md:dark:bg-transparent"
+                          : "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                       }
                     >
                       {route.name}

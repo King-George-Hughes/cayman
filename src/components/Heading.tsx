@@ -6,7 +6,7 @@ const Heading = () => {
           Cayman Ghana Ltd.
         </h2>
 
-        <p className="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:mr-3 first-letter:float-left">
+        <p className="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-[#dacb46] first-letter:mr-3 first-letter:float-left">
           Cayman Ghana Ltd is a human capital development consulting firm that
           aims to provide individuals and corporate organizations all kinds of
           HR needs at one convinient source.

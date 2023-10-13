@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img src="/logooo.jpeg" className="h-8 mr-3" alt="Cayman Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-md lg:text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Cayman Ghana Ltd
               </span>
             </Link>
