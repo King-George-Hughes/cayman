@@ -26,51 +26,64 @@ const About = () => {
             implementation, assessment, and other services
           </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
-            Our Mission.
-          </h2>
+          {/*  */}
+          <div className="mt-10 pb-5 rounded-b-lg flex items-center flex-col gap-10 lg:flex-row">
+            <div className="w-full lg:w-1/2 mt-3">
+              <img src="/images/about.svg" alt="" className="" />
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
-            To provide a needed service in the area of Human Resource Management
-            at an affordable cost without compromising on quality.
-          </p>
+              <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-16 md:mt-20 mb-5">
+                Our Objectives.
+              </h2>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
-            Our Vission.
-          </h2>
+              <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
+                To provide diversity in Human Resource Consulting services by
+                facilitating identified, necessary change within an organization
+                in order to enhance the success of the company through the
+                improvement in Productivity, Efficiency, Communication, and
+                Employee ethics.
+              </p>
+              <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
+                No matter your industry, Cayman Ghana Limited will work with
+                your company to identify needs, develop an action plan, and
+                assist with implementation. Thus we add and retain values to our
+                clients through our excellent team.
+              </p>
+            </div>
+            <div className="w-full lg:w-1/2">
+              <div className="w-full">
+                <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
+                  Our Mission.
+                </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
-            To become a leading support and service provider in the Human
-            Resource Consulting industry, to individuals and corporate
-            institutions.
-          </p>
+                <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
+                  To provide a needed service in the area of Human Resource
+                  Management at an affordable cost without compromising on
+                  quality.
+                </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
-            Our Core Values.
-          </h2>
+                <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
+                  Our Vission.
+                </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
-            Our core values of customer satisfaction, continuous improvement,
-            teamwork, and achieving results are woven into every aspect of our
-            HR services.
-          </p>
+                <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
+                  To become a leading support and service provider in the Human
+                  Resource Consulting industry, to individuals and corporate
+                  institutions.
+                </p>
 
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center lg:text-start mt-16 md:mt-20 mb-5">
-            Our Objectives.
-          </h2>
+                <h2 className="text-2xl md:text-4xl font-bold text-[#dacb46] text-center lg:text-start mt-10 md:mt-20 mb-5">
+                  Our Core Values.
+                </h2>
 
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
-            To provide diversity in Human Resource Consulting services by
-            facilitating identified, necessary change within an organization in
-            order to enhance the success of the company through the improvement
-            in Productivity, Efficiency, Communication, and Employee ethics.
-          </p>
-          <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-2/3">
-            No matter your industry, Cayman Ghana Limited will work with your
-            company to identify needs, develop an action plan, and assist with
-            implementation. Thus we add and retain values to our clients through
-            our excellent team.
-          </p>
+                <p className="mb-5 text-gray-500 dark:text-gray-400 lg:w-1/2 text-center lg:text-start">
+                  Our core values of customer satisfaction, continuous
+                  improvement, teamwork, and achieving results are woven into
+                  every aspect of our HR services.
+                </p>
+              </div>
+            </div>
+          </div>
+          {/*  */}
         </div>
       </div>
     </Layout>
