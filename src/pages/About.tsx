@@ -27,7 +27,7 @@ const About = () => {
           </p>
 
           {/*  */}
-          <div className="mt-10 pb-5 rounded-b-lg flex items-center flex-col gap-10 lg:flex-row">
+          <div className="w-full mt-10 pb-5 rounded-b-lg flex items-center justify-between flex-col gap-10 lg:gap-32 lg:flex-row">
             <div className="w-full lg:w-1/2 mt-3">
               <img src="/images/about.svg" alt="" className="" />
 
