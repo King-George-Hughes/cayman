@@ -16,23 +16,6 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
-                Location:
-              </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Crown Count Annex Unit 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Labone-Accra, Ghana
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
                 Contact Us:
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -54,6 +37,24 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <div>
+              <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
+                Location:
+              </h2>
+              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
+                    Crown Count Annex Unit 1
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Labone-Accra, Ghana
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <div>
               <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
                 Legal
