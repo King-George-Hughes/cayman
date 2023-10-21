@@ -50,10 +50,10 @@ const Subscribe = () => {
 
             <div className="pt-5 sm:pt-0 sm:pl-5">
               <div className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Trust pilot
+                Our Subscribers
               </div>
               <div className="text-sm text-gray-500">
-                Rated best over 37k subscribers
+                Be among over 3k subscribers
               </div>
             </div>
           </div>
