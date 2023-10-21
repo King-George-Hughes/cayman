@@ -1,9 +1,20 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 export default function NavBar() {
+  const navBarRef = useRef<HTMLDivElement>(null);
   const [showMenu, setShowMenu] = useState(false);
+
+  const getHeight = (): number => {
+    if (navBarRef.current) {
+      const rect = navBarRef.current.getBoundingClientRect();
+      return rect.height;
+    }
+    return 60;
+  };
+
+  console.log(getHeight());
 
   const routes = [
     { name: "Home", url: "/" },
@@ -13,7 +24,10 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="fixed w-full border-gray-200 bg-gray-100 dark:bg-gray-800 dark:border-gray-700 border-b-2 z-10">
+    <nav
+      ref={navBarRef}
+      className="fixed w-full border-gray-200 border-b-2 bg-gray-100 dark:bg-gray-800 dark:border-gray-700 z-20"
+    >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 relative">
         <Link to="/" className="flex items-center">
           <img src="/logooo.jpeg" className="h-8 w-10 mr-3" alt="Cayman Logo" />
@@ -71,10 +85,10 @@ export default function NavBar() {
         <AnimatePresence>
           {showMenu && (
             <motion.div
-              initial={{ y: "-100px" }}
-              animate={{ y: "0" }}
-              exit={{ y: "-100px" }}
-              className="absolute md:hidden w-full md:w-auto"
+              initial={{ right: "-100px", opacity: 0 }}
+              animate={{ right: 0, opacity: 1 }}
+              exit={{ right: "-100px", opacity: 0 }}
+              className="absolute md:hidden w-full md:w-auto top-[60px] z-10"
               id="navbar-solid-bg"
             >
               <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
