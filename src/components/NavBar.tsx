@@ -85,10 +85,10 @@ export default function NavBar() {
         <AnimatePresence>
           {showMenu && (
             <motion.div
-              initial={{ right: "-100px", opacity: 0 }}
-              animate={{ right: 0, opacity: 1 }}
-              exit={{ right: "-100px", opacity: 0 }}
-              className="absolute md:hidden w-full md:w-auto top-[60px] z-10"
+              initial={{ y: "-60px", opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ x: "100%", opacity: 0 }}
+              className="absolute md:hidden w-full md:w-auto top-[55px] right-0 z-10"
               id="navbar-solid-bg"
             >
               <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
