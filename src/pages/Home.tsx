@@ -14,8 +14,8 @@ const Home = () => {
       <Layout>
         <HomeHeroTop />
         <Heading />
-        <Services />
         <Hero />
+        <Services />
         <Jambotron />
         <OurClients />
       </Layout>

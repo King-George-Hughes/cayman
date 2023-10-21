@@ -1,9 +1,9 @@
 const Heading = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-lg text-start lg:py-16">
+      <div className="py-8 lg:pt-20 px-4 mx-auto max-w-screen-lg text-start lg:py-16">
         <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center mb-10 md:mb-14">
-          Cayman Ghana Ltd.
+          About Cayman Ghana Limited.
         </h2>
 
         {/*  */}

@@ -14,19 +14,13 @@ const HomeHeroTop = () => {
               </span>
             </h1>
             <div className="w-full mt-10">
-              <p className="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-primaryColor first-letter:mr-3 first-letter:float-left">
-                Cayman Ghana Ltd is a human capital development consulting firm
-                that aims to provide individuals and corporate organizations all
-                kinds of HR needs at one convinient source.
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                As an ambitious HR consultancy with a drive to become the 'HR
-                Partner of Choice', we offer a wide variety of services thatt
-                help you increase employee motivation and performance, which in
-                turn ccreates a more profitable business. Our flexible support
-                options are designed to help clients scale to their full
-                potential and are offered on a retained, project or ad-hoc
-                basis.
+              <p className="mt-3 text-center lg:text-start text-lg text-gray-800 dark:text-gray-400">
+                Cayman Ghana Limited is a recruitment company that provides a
+                comprehensive service that identifies the role requirements in
+                the organization and designs the job description and skill
+                requirements for that role. Cayman Ghana Limited provides a
+                broad menu of Human Resource Outsourcing Services for companies.
+                From an economical complete service
               </p>
             </div>
             <div className="mt-7 grid gap-3 w-full sm:inline-flex">
