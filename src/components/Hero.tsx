@@ -1,26 +1,25 @@
-import { Link } from "react-router-dom";
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 import { useState, useEffect } from "react";
 
 const sliderData = [
   {
     id: 1,
-    image: "images/pic.jpg",
-    title: "Your HR Outsourcing Partner",
+    image: "images/slide-1.jpg",
+    title: "Human Resource Management",
     subText:
       "At Cayman Ghana Limited, we work closely with our valued customers to increase their readiness level to Human Resources Management systems. ",
   },
   {
     id: 2,
-    image: "images/pic2.jpg",
-    title: "Your HR Outsourcing Partner",
+    image: "images/slide-2.jpg",
+    title: "Busines Support Services",
     subText:
       "This includes training, methodology development, tools implementation, assessment, and other services.",
   },
   {
     id: 3,
-    image: "images/pic.jpg",
-    title: "Your HR Outsourcing Partner",
+    image: "images/slide-3.jpg",
+    title: "Talent Management",
     subText:
       "At Cayman Ghana Limited, we work closely with our valued customers to increase their readiness level to Human Resources Management systems.",
   },
@@ -91,7 +90,7 @@ const Hero = () => {
                 alt=""
                 className="absolute left-0 right-0 bottom-0 w-full h-full object-cover"
               />
-              <div className="absolute left-0 right-0 bottom-0 w-full h-full bg-gradient-to-r from-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.8)]"></div>
+              <div className="absolute left-0 right-0 bottom-0 w-full h-full bg-gradient-to-r from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.5)]"></div>
               <div className="container mx-auto absolute left-0 right-0 bottom-0 w-full h-full z-10 flex items-center justify-center">
                 <div className="font-poppins text-white">
                   <h1
@@ -103,36 +102,6 @@ const Hero = () => {
                   <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48 max-w-[85%] mx-auto">
                     {subText}
                   </p>
-
-                  <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 px-12 lg:px-0">
-                    <a
-                      href="#services"
-                      className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-[#dacb46] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-                    >
-                      Get started
-                      <svg
-                        className="w-3.5 h-3.5 ml-2"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 14 10"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M1 5h12m0 0L9 1m4 4L9 9"
-                        />
-                      </svg>
-                    </a>
-                    <Link
-                      to="/packages"
-                      className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
-                    >
-                      Learn more
-                    </Link>
-                  </div>
                 </div>
               </div>
             </article>
