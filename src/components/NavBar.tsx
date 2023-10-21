@@ -97,10 +97,10 @@ export default function NavBar() {
                 initial={{ y: "-60px", opacity: 0, scale: 0 }}
                 animate={{ y: 0, opacity: 1, scale: 1 }}
                 exit={{ x: "100%", opacity: 0 }}
-                className="absolute md:hidden w-2/3 md:w-auto top-[70px] right-0 z-10 border-gray-200 border-b-2 bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
+                className="absolute md:hidden w-2/3 md:w-auto top-[70px] right-0 z-10 border-gray-200 border-b-2 border-t-2 border-l-2 bg-gray-100 dark:bg-gray-800 dark:border-gray-700"
                 id="navbar-solid-bg"
               >
-                <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                <ul className="flex flex-col font-medium my-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                   {routes.map((route) => {
                     return (
                       <li>
@@ -108,8 +108,8 @@ export default function NavBar() {
                           to={route.url}
                           className={({ isActive }) =>
                             isActive
-                              ? "block py-3 pl-5 pr-4 text-gray-800 bg-[#dacb46] rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-gray-800 md:dark:bg-transparent"
-                              : "block py-3 pl-5 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                              ? "block py-3 mx-5 my-1 pl-5 pr-4 text-gray-800 bg-[#dacb46] rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-gray-800 md:dark:bg-transparent"
+                              : "block py-3 mx-5 my-1 pl-5 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                           }
                         >
                           {route.name}
