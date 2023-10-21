@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HomeHeroTop = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto px-5 py-10 lg:pt-16">
+      <div className="max-w-7xl mx-auto px-5 py-28 lg:pt-32">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>
             <h1 className="block text-center lg:text-start text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
