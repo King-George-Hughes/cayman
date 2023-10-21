@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
+
 const HomeHeroTop = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-5 py-10">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>
-            <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
+            <h1 className="block text-center lg:text-start text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
               Start your journey with{" "}
               <span className="bg-clip-text bg-gradient-to-tl from-primaryColor to-primaryColor2 text-transparent">
+                <br className="lg:hidden" />
                 Cayman Ghana
               </span>
             </h1>
@@ -16,31 +19,32 @@ const HomeHeroTop = () => {
             </p>
             <div className="mt-7 grid gap-3 w-full sm:inline-flex">
               <a
-                className="inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-sm lg:text-base text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
-                href="#"
+                href="#services"
+                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-[#dacb46] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
               >
                 Get started
                 <svg
-                  className="w-2.5 h-2.5"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
+                  className="w-3.5 h-3.5 ml-2"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
                   fill="none"
+                  viewBox="0 0 14 10"
                 >
                   <path
-                    d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
                     stroke="currentColor"
-                    stroke-width="2"
                     stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5h12m0 0L9 1m4 4L9 9"
                   />
                 </svg>
               </a>
-              <a
-                className="inline-flex justify-center items-center gap-x-3.5 text-sm lg:text-base text-center border hover:border-gray-300 shadow-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:border-gray-800 dark:hover:border-gray-600 dark:shadow-slate-700/[.7] dark:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
-                href="#"
+              <Link
+                to="/packages"
+                className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
               >
-                Contact sales team
-              </a>
+                Learn more
+              </Link>
             </div>
             {/* <!-- End Buttons --> */}
             {/* <!-- Review --> */}
