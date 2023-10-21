@@ -1,4 +1,4 @@
-import { Footer, NavBar } from ".";
+import { Footer, NavBar, Subscribe } from ".";
 import { ReactNode } from "react";
 import { ScrollToTop } from "../routing/routes";
 
@@ -12,6 +12,7 @@ const Layout = ({ children }: Props) => {
       <NavBar />
       <ScrollToTop />
       {children}
+      <Subscribe />
       <Footer />
     </>
   );

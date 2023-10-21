@@ -5,7 +5,6 @@ import {
   Jambotron,
   Layout,
   Services,
-  Subscribe,
 } from "../components";
 import OurClients from "../components/OurClients";
 
@@ -18,7 +17,6 @@ const Home = () => {
         <Heading />
         <Services />
         <Jambotron />
-        <Subscribe />
         <OurClients />
       </Layout>
     </>
