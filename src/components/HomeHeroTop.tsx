@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const HomeHeroTop = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto px-5 py-10">
+      <div className="max-w-7xl mx-auto px-5 py-10 lg:pt-16">
         <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
           <div>
             <h1 className="block text-center lg:text-start text-3xl font-bold text-gray-800 sm:text-4xl lg:text-6xl lg:leading-tight dark:text-white">
@@ -13,16 +13,28 @@ const HomeHeroTop = () => {
                 Cayman Ghana
               </span>
             </h1>
-            <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
-              Hand-picked professionals and expertly crafted components,
-              designed for any kind of entrepreneur.
-            </p>
+            <div className="w-full mt-10">
+              <p className="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-primaryColor first-letter:mr-3 first-letter:float-left">
+                Cayman Ghana Ltd is a human capital development consulting firm
+                that aims to provide individuals and corporate organizations all
+                kinds of HR needs at one convinient source.
+              </p>
+              <p className="text-gray-500 dark:text-gray-400">
+                As an ambitious HR consultancy with a drive to become the 'HR
+                Partner of Choice', we offer a wide variety of services thatt
+                help you increase employee motivation and performance, which in
+                turn ccreates a more profitable business. Our flexible support
+                options are designed to help clients scale to their full
+                potential and are offered on a retained, project or ad-hoc
+                basis.
+              </p>
+            </div>
             <div className="mt-7 grid gap-3 w-full sm:inline-flex">
               <a
                 href="#services"
-                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-[#dacb46] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
+                className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-primaryColor focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
               >
-                Get started
+                Our Servies
                 <svg
                   className="w-3.5 h-3.5 ml-2"
                   aria-hidden="true"
@@ -43,15 +55,14 @@ const HomeHeroTop = () => {
                 to="/packages"
                 className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
               >
-                Learn more
+                Our Packages
               </Link>
             </div>
-            {/* <!-- End Buttons --> */}
             {/* <!-- Review --> */}
             <div className="mt-6 lg:mt-10 grid grid-cols-2 gap-x-5">
               {/* <!-- Review --> */}
-              <div className="py-5">
-                <div className="flex space-x-1">
+              <div className="py-5 text-center lg:text-start">
+                <div className="flex items-center justify-center lg:justify-start space-x-1">
                   <svg
                     className="h-4 w-4 text-gray-800 dark:text-gray-200"
                     width="51"
@@ -121,7 +132,7 @@ const HomeHeroTop = () => {
                 <p className="mt-3 text-sm text-gray-800 dark:text-gray-200">
                   <span className="font-bold">4.6</span> /5 - from 12k reviews
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 flex items-center justify-center lg:justify-start">
                   {/* <!-- Star --> */}
                   <svg
                     className="h-auto w-16 text-gray-800 dark:text-white"
@@ -161,8 +172,8 @@ const HomeHeroTop = () => {
               </div>
               {/* <!-- End Review --> */}
               {/* <!-- Review --> */}
-              <div className="py-5">
-                <div className="flex space-x-1">
+              <div className="py-5 text-center lg:text-start">
+                <div className="flex items-center justify-center lg:justify-start space-x-1">
                   <svg
                     className="h-4 w-4 text-gray-800 dark:text-gray-200"
                     width="51"
@@ -236,7 +247,7 @@ const HomeHeroTop = () => {
                 <p className="mt-3 text-sm text-gray-800 dark:text-gray-200">
                   <span className="font-bold">4.8</span> /5 - from 5k reviews
                 </p>
-                <div className="mt-5">
+                <div className="mt-5 flex items-center justify-center lg:justify-start">
                   {/* <!-- Star --> */}
                   <svg
                     className="h-auto w-16 text-gray-800 dark:text-white"
