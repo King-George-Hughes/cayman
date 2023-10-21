@@ -31,7 +31,7 @@ const Package = ({ id, title, subText, includedFeatures }: Props) => {
                   href="#"
                   className="mt-10 block w-full rounded-md bg-[#dacb46] px-3 py-2 text-center text-sm font-semibold text-gray-800 shadow-sm hover:bg-[#dacb20] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
-                  Get access
+                  Get Package
                 </a>
                 <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-400">
                   {subText}
@@ -112,12 +112,9 @@ const Package = ({ id, title, subText, includedFeatures }: Props) => {
                     GHC
                   </span> */}
                 </p>
-                <a
-                  href="#"
-                  className="mt-10 block w-full rounded-md bg-[#dacb46] px-3 py-2 text-center text-sm font-semibold text-gray-800 shadow-sm hover:bg-[#dacb20] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Get access
-                </a>
+                <button className="mt-10 block w-full rounded-md bg-[#dacb46] px-3 py-2 text-center text-sm font-semibold text-gray-800 shadow-sm hover:bg-[#dacb20] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                  Get Package
+                </button>
                 <p className="mt-6 text-xs leading-5 text-gray-600 dark:text-gray-400">
                   {subText}
                 </p>

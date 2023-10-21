@@ -1,7 +1,7 @@
 const Subscribe = () => {
   return (
     <div className="overflow-hidden bg-white dark:bg-gray-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-20">
         <div className="relative mx-auto max-w-4xl grid space-y-5 sm:space-y-10">
           <div className="text-center">
             <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center mb-5">
