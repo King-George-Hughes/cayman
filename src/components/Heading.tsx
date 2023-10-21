@@ -1,6 +1,6 @@
 const Heading = () => {
   return (
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-white dark:bg-gray-900 pt-10 lg:pt-20">
       <div className="py-8 lg:pt-20 px-4 mx-auto max-w-screen-lg text-start lg:py-16">
         <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-gray-200 text-center mb-10 md:mb-14">
           About Cayman Ghana Limited.
@@ -18,7 +18,7 @@ const Heading = () => {
                 that aims to provide individuals and corporate organizations all
                 kinds of HR needs at one convinient source.
               </p>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 dark:text-gray-400 mt-10">
                 As an ambitious HR consultancy with a drive to become the 'HR
                 Partner of Choice', we offer a wide variety of services thatt
                 help you increase employee motivation and performance, which in

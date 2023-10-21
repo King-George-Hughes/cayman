@@ -9,8 +9,10 @@ import Layout from "./Layout";
 import Package from "./Package";
 import HeroTop from "./HeroTop";
 import HomeHeroTop from "./HomeHeroTop";
+import Subscribe from "./Subscribe";
 
 export {
+  Subscribe,
   Package,
   NavBar,
   Hero,

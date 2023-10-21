@@ -103,7 +103,7 @@ const Jambotron = () => {
                     className="h-6 w-5 flex-none text-indigo-600"
                     aria-hidden="true"
                   />
-                  2 Month free HR Advisory service
+                  2 Months free HR Advisory service
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
@@ -154,7 +154,7 @@ const Jambotron = () => {
                     className="h-6 w-5 flex-none text-indigo-600"
                     aria-hidden="true"
                   />
-                  3 Month free HR Advisory service
+                  3 Months free HR Advisory service
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
