@@ -1,13 +1,21 @@
-import { Heading, Hero, Jambotron, Layout, Services } from "../components";
+import {
+  Heading,
+  Hero,
+  HomeHeroTop,
+  Jambotron,
+  Layout,
+  Services,
+} from "../components";
 import OurClients from "../components/OurClients";
 
 const Home = () => {
   return (
     <>
       <Layout>
-        <Hero />
+        <HomeHeroTop />
         <Heading />
         <Services />
+        <Hero />
         <Jambotron />
         <OurClients />
       </Layout>

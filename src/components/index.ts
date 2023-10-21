@@ -8,6 +8,7 @@ import Heading from "./Heading";
 import Layout from "./Layout";
 import Package from "./Package";
 import HeroTop from "./HeroTop";
+import HomeHeroTop from "./HomeHeroTop";
 
 export {
   Package,
@@ -20,4 +21,5 @@ export {
   Heading,
   Layout,
   HeroTop,
+  HomeHeroTop,
 };
