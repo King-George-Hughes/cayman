@@ -9,7 +9,7 @@ const Footer = () => {
             <Link to="/" className="flex items-center">
               <img src="/logooo.jpeg" className="h-8 mr-3" alt="Cayman Logo" />
               <span className="self-center text-md lg:text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Cayman Ghana Ltd
+                Cayman Ghana Limited
               </span>
             </Link>
           </div>
@@ -18,7 +18,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
                 Contact Us:
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-primaryColor dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
                     href="mailto:caymanghana@gmail.com"
@@ -41,7 +41,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
                 Location:
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-primaryColor dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Crown Count Annex Unit 1
@@ -59,7 +59,7 @@ const Footer = () => {
               <h2 className="mb-6 text-sm font-semibold text-primaryColor uppercase">
                 Legal
               </h2>
-              <ul className="text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="text-primaryColor dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="#" className="hover:underline">
                     Privacy Policy
@@ -76,18 +76,15 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-sm text-primaryColor sm:text-center dark:text-gray-400">
             {new Date().getFullYear()}{" "}
             <Link to="/" className="hover:underline">
-              Cayman Ghana Ltd™
+              Cayman Ghana Limited™
             </Link>
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <a href="#" className="text-primaryColor hover:text-primaryColor2">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -103,10 +100,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Facebook page</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <a href="#" className="text-primaryColor hover:text-primaryColor2">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -118,10 +112,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Discord community</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <a href="#" className="text-primaryColor hover:text-primaryColor2">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -137,10 +128,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">Twitter page</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <a href="#" className="text-primaryColor hover:text-primaryColor2">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -156,10 +144,7 @@ const Footer = () => {
               </svg>
               <span className="sr-only">GitHub account</span>
             </a>
-            <a
-              href="#"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
+            <a href="#" className="text-primaryColor hover:text-primaryColor2">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"

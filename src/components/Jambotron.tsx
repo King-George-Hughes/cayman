@@ -1,4 +1,5 @@
 import { CheckIcon } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
 
 const Jambotron = () => {
   return (
@@ -19,7 +20,7 @@ const Jambotron = () => {
           <ul>
             <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
               <CheckIcon
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-primaryColor"
                 aria-hidden="true"
               />
               An introduction for new employees to the policies, procedures, and
@@ -27,7 +28,7 @@ const Jambotron = () => {
             </li>
             <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
               <CheckIcon
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-primaryColor"
                 aria-hidden="true"
               />
               A helpful tool for employees and supervisors to understand and
@@ -35,7 +36,7 @@ const Jambotron = () => {
             </li>
             <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
               <CheckIcon
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-primaryColor"
                 aria-hidden="true"
               />
               A useful guide to reinforce the uniform application of company
@@ -43,7 +44,7 @@ const Jambotron = () => {
             </li>
             <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
               <CheckIcon
-                className="h-6 w-5 flex-none text-indigo-600"
+                className="h-6 w-5 flex-none text-primaryColor"
                 aria-hidden="true"
               />
               Legal evidence that your company’s policies are consistent with
@@ -63,14 +64,17 @@ const Jambotron = () => {
               <ul>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   1 Month free HR Advisory service
                 </li>
               </ul>
             </p>
-            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
+            <Link
+              to={"/packages"}
+              className="text-primaryColor hover:underline font-medium text-lg inline-flex items-center"
+            >
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -87,7 +91,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
             <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-5">
@@ -100,28 +104,31 @@ const Jambotron = () => {
               <ul>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   2 Months free HR Advisory service
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   Training on Handbook
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   3% Discount
                 </li>
               </ul>
             </p>
-            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
+            <Link
+              to={"/packages"}
+              className="text-primaryColor hover:underline font-medium text-lg inline-flex items-center"
+            >
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -138,7 +145,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
           <div className="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12">
             <h2 className="text-gray-900 dark:text-white text-3xl font-extrabold mb-5">
@@ -151,28 +158,31 @@ const Jambotron = () => {
               <ul>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   3 Months free HR Advisory service
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   Training on Handbook
                 </li>
                 <li className="flex gap-x-3 text-lg font-normal text-gray-500 dark:text-gray-400 mb-6">
                   <CheckIcon
-                    className="h-6 w-5 flex-none text-indigo-600"
+                    className="h-6 w-5 flex-none text-primaryColor"
                     aria-hidden="true"
                   />
                   10% Discount
                 </li>
               </ul>
             </p>
-            <button className="text-blue-600 dark:text-blue-500 hover:underline font-medium text-lg inline-flex items-center">
+            <Link
+              to={"/packages"}
+              className="text-primaryColor hover:underline font-medium text-lg inline-flex items-center"
+            >
               Read more
               <svg
                 className="w-3.5 h-3.5 ml-2"
@@ -189,7 +199,7 @@ const Jambotron = () => {
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
