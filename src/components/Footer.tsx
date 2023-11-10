@@ -28,11 +28,11 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <Link to="tel:+233241497771" className="hover:underline">
-                    +233-241-497-771 <br />
+                  <Link to="tel:+233500885353" className="hover:underline">
+                    +233-500-885-353 <br />
                   </Link>
-                  <Link to="tel:+233201100640" className="hover:underline">
-                    +233-201-100-640
+                  <Link to="tel:+233303955189" className="hover:underline">
+                    +233-303-955-189
                   </Link>
                 </li>
               </ul>
