@@ -10,6 +10,7 @@ import Package from "./Package";
 import HeroTop from "./HeroTop";
 import HomeHeroTop from "./HomeHeroTop";
 import Subscribe from "./Subscribe";
+import Pricing from "./Pricing";
 
 export {
   Subscribe,
@@ -24,4 +25,5 @@ export {
   Layout,
   HeroTop,
   HomeHeroTop,
+  Pricing,
 };

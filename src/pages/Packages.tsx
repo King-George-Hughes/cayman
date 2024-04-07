@@ -1,4 +1,4 @@
-import { HeroTop, Layout, Package } from "../components";
+import { HeroTop, Layout, Package, Pricing } from "../components";
 
 const packages = [
   {
@@ -88,7 +88,7 @@ const Packages = () => {
               </div>
             </div>
           </div>
-          {packages.map((pkg) => {
+          {/* {packages.map((pkg) => {
             const { id, title, subText, price, includedFeatures } = pkg;
             return (
               <Package
@@ -100,7 +100,8 @@ const Packages = () => {
                 includedFeatures={includedFeatures}
               />
             );
-          })}
+          })} */}
+          <Pricing />
         </div>
       </div>
     </Layout>

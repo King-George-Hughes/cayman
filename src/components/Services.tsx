@@ -8,7 +8,7 @@ interface ServiceData {
 
 const callouts = [
   {
-    name: "Busines Support Services",
+    name: "Business Support Services",
     description: [
       "Company Taxation & Auditing Services",
       "Automated Payroll Administration",
