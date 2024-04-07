@@ -21,10 +21,10 @@ const Footer = () => {
               <ul className="text-primaryColor dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="mailto:caymanghana@gmail.com"
+                    href="mailto:info@caymanghana.com"
                     className="hover:underline "
                   >
-                    caymanghana@gmail.com
+                    info@caymanghana.com
                   </a>
                 </li>
                 <li>
