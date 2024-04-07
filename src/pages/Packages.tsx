@@ -1,63 +1,4 @@
-import { HeroTop, Layout, Package, Pricing } from "../components";
-
-const packages = [
-  {
-    id: 1,
-    title: "Bronze",
-    subText: "Invoices shall be issued for included services with 2% Discount",
-    price: 1_500.0,
-    includedFeatures: [
-      "Performance Management",
-      "Employee Relations and Management services",
-      "HR Advisory Services",
-      "Recruitment and staffing solutions",
-    ],
-  },
-  {
-    id: 2,
-    title: "Silver",
-    subText: "Invoices shall be issued for included services with 4% Discount",
-    price: 2_000.0,
-    includedFeatures: [
-      "Recruitment and staffing solutions",
-      "Employee Training and Career Development",
-      "HR Policies and HR Strategy Development",
-      "Employee Relations and Management services",
-      "Performance Management",
-      "HR Advisory Services",
-    ],
-  },
-  {
-    id: 3,
-    title: "Gold",
-    subText: "Invoices shall be issued for included services with 6% Discount",
-    price: 3_000.0,
-    includedFeatures: [
-      "Recruitment and staffing solutions with Employment contracts",
-      "Training and Career Development",
-      "HR Policies and HR Strategy Development",
-      "Employee Relations and Management services",
-      "Performance Management",
-      "HR Advisory Services",
-    ],
-  },
-  {
-    id: 4,
-    title: "Platinum",
-    subText: "Invoices shall be issued for included services with 8% Discount",
-    price: 4_000.0,
-    includedFeatures: [
-      "Payroll Administration",
-      "Statutory Payments and compliance",
-      "Corporate Secretarial services",
-      "Virtual Assistance services",
-      "Recruitment and staffing solutions",
-      "HR Policies and HR Strategy Development",
-      "HR Advisory Services",
-      "Employee Relations and Management services",
-    ],
-  },
-];
+import { HeroTop, Layout, Pricing } from "../components";
 
 const Packages = () => {
   return (
@@ -88,19 +29,6 @@ const Packages = () => {
               </div>
             </div>
           </div>
-          {/* {packages.map((pkg) => {
-            const { id, title, subText, price, includedFeatures } = pkg;
-            return (
-              <Package
-                id={id}
-                key={id}
-                title={title}
-                subText={subText}
-                price={price}
-                includedFeatures={includedFeatures}
-              />
-            );
-          })} */}
           <Pricing />
         </div>
       </div>
