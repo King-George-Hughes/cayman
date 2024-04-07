@@ -2251,25 +2251,25 @@ const Pricing = () => {
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white"
                     scope="colgroup"
                   >
-                    ₵350.00
+                    {annualPackage ? "₵4,100.00" : "₵350.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white"
                     scope="colgroup"
                   >
-                    ₵500.00
+                    {annualPackage ? "₵6,000.00" : "₵500.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white"
                     scope="colgroup"
                   >
-                    ₵700.00
+                    {annualPackage ? "₵8,400.00" : "₵700.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white"
                     scope="colgroup"
                   >
-                    ₵1,250.00
+                    {annualPackage ? "₵15,000.00" : "₵1,250.00"}
                   </th>
                 </tr>
 
