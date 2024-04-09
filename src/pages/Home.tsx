@@ -4,6 +4,7 @@ import {
   HomeHeroTop,
   Jambotron,
   Layout,
+  Products,
   Services,
 } from "../components";
 import OurClients from "../components/OurClients";
@@ -16,6 +17,7 @@ const Home = () => {
         <Hero />
         <Heading />
         <Services />
+        <Products />
         <Jambotron />
         <OurClients />
       </Layout>

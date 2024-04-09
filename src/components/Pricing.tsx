@@ -2,7 +2,7 @@ import { useState } from "react";
 import { monthlySub } from "../data/data";
 
 const Pricing = () => {
-  const [annualPackage, setAnnualPackage] = useState(true);
+  const [annualPackage, setAnnualPackage] = useState(false);
   const [firstMonthlyData, secondMonthlyData, ...otherMonthlyData] = monthlySub;
 
   return (

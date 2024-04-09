@@ -11,6 +11,7 @@ import HeroTop from "./HeroTop";
 import HomeHeroTop from "./HomeHeroTop";
 import Subscribe from "./Subscribe";
 import Pricing from "./Pricing";
+import Products from "./Products";
 
 export {
   Subscribe,
@@ -26,4 +27,5 @@ export {
   HeroTop,
   HomeHeroTop,
   Pricing,
+  Products,
 };

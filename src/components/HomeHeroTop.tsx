@@ -15,12 +15,10 @@ const HomeHeroTop = () => {
             </h1>
             <div className="w-full mt-10">
               <p className="mt-3 text-center lg:text-start text-lg text-gray-800 dark:text-gray-400">
-                Cayman Ghana Limited is a recruitment company that provides a
-                comprehensive service that identifies the role requirements in
-                the organization and designs the job description and skill
-                requirements for that role. Cayman Ghana Limited provides a
-                broad menu of Human Resource Outsourcing Services for companies.
-                From an economical complete service
+                Cayman Ghana limited is an HR consulting company that provides
+                Human Resources Management and enterprise support services to
+                all industries. With tailored HR services that enables companies
+                to achieve their objectives
               </p>
             </div>
             <div className="mt-7 grid gap-3 w-full sm:inline-flex">
@@ -28,7 +26,7 @@ const HomeHeroTop = () => {
                 href="#services"
                 className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-800 rounded-lg bg-[#F8E860] hover:bg-primaryColor focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
               >
-                Our Servies
+                Our Services
                 <svg
                   className="w-3.5 h-3.5 ml-2"
                   aria-hidden="true"
