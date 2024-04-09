@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Products = () => {
   return (
     <div className="bg-white dark:bg-gray-900">
@@ -18,10 +20,16 @@ const Products = () => {
           roof, streamlining collaboration and boosting productivity. No matter
           the size of your company, our platform adapts to your needs, enabling
           you to focus on what truly matters - growing your business!
+          <Link
+            to="/packages"
+            className="inline-flex justify-center text-gray-900 hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center dark:text-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 mt-8"
+          >
+            View Princing
+          </Link>
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-5 py-28 lg:pt-20">
+      <div className="max-w-7xl mx-auto px-5 py-24 lg:pt-20">
         <h2 className="text-2xl md:text-4xl mb-10 font-bold text-gray-900 dark:text-gray-200 text-center">
           Benefits
         </h2>
