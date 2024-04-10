@@ -1,4 +1,5 @@
-import { HeroTop, Layout, Pricing } from "../components";
+import { HeroTop, Layout, Package } from "../components";
+import { packages } from "../data/data";
 
 const Packages = () => {
   return (
@@ -29,7 +30,19 @@ const Packages = () => {
               </div>
             </div>
           </div>
-          <Pricing />
+          {packages.map((pkg) => {
+            const { id, title, subText, price, includedFeatures } = pkg;
+            return (
+              <Package
+                id={id}
+                key={id}
+                title={title}
+                subText={subText}
+                price={price}
+                includedFeatures={includedFeatures}
+              />
+            );
+          })}
         </div>
       </div>
     </Layout>

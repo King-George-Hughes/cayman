@@ -74,7 +74,7 @@ const Pricing = () => {
               Get started
             </h4>
             <span className="mt-7 font-bold text-5xl text-gray-800 dark:text-gray-200">
-              {annualPackage ? "₵4,100.00" : "₵350.00"}
+              {annualPackage ? "₵5,000.00" : "₵500.00"}
             </span>
             <p className="mt-2 text-sm text-gray-500">For Biginners</p>
 
@@ -160,7 +160,7 @@ const Pricing = () => {
               Starter
             </h4>
             <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
-              {annualPackage ? "₵6,000.00" : "₵500.00"}
+              {annualPackage ? "₵10,000.00" : "₵1,000.00"}
             </span>
             <p className="mt-2 text-sm text-gray-500">
               All the basics for starting a new business
@@ -243,7 +243,7 @@ const Pricing = () => {
               SME
             </h4>
             <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
-              {annualPackage ? "₵8,400.00" : "₵700.00"}
+              {annualPackage ? "₵15,000.00" : "₵1,500.00"}
             </span>
             <p className="mt-2 text-sm text-gray-500">
               Everything you need for a growing business
@@ -326,7 +326,7 @@ const Pricing = () => {
               SME Max
             </h4>
             <span className="mt-5 font-bold text-5xl text-gray-800 dark:text-gray-200">
-              {annualPackage ? "₵15,000.00" : "₵1,250.00"}
+              {annualPackage ? "₵20,000.00" : "₵1,800.00"}
             </span>
             <p className="mt-2 text-sm text-gray-500">
               Advanced features for scaling your business
@@ -465,25 +465,25 @@ const Pricing = () => {
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white px-3"
                     scope="colgroup"
                   >
-                    {annualPackage ? "₵4,100.00" : "₵350.00"}
+                    {annualPackage ? "₵5,000.00" : "₵500.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white px-3"
                     scope="colgroup"
                   >
-                    {annualPackage ? "₵6,000.00" : "₵500.00"}
+                    {annualPackage ? "₵10,000.00" : "₵1,000.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white px-3"
                     scope="colgroup"
                   >
-                    {annualPackage ? "₵8,400.00" : "₵700.00"}
+                    {annualPackage ? "₵15,000.00" : "₵1,500.00"}
                   </th>
                   <th
                     className="py-3 bg-gray-50 font-bold text-4xl text-gray-800 text-center dark:bg-slate-800 dark:text-white px-3"
                     scope="colgroup"
                   >
-                    {annualPackage ? "₵15,000.00" : "₵1,250.00"}
+                    {annualPackage ? "₵20,000.00" : "₵1,800.00"}
                   </th>
                 </tr>
 

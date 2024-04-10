@@ -8,6 +8,9 @@ const Products = () => {
           Product
         </h2>
 
+        <p className="text-primaryColor2 dark:text-primaryColor max-w-5xl mx-auto text-xl text-center font-bold my-2">
+          Prodesk 247
+        </p>
         <p className="text-gray-500 max-w-5xl mx-auto dark:text-gray-400 text-lg text-center font-bold my-2">
           "Ultimate Integrated Solution: HR, CRM, Project, & Administration"
         </p>
@@ -20,12 +23,14 @@ const Products = () => {
           roof, streamlining collaboration and boosting productivity. No matter
           the size of your company, our platform adapts to your needs, enabling
           you to focus on what truly matters - growing your business!
-          <Link
-            to="/packages"
-            className="inline-flex justify-center text-gray-900 hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center dark:text-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 mt-8"
-          >
-            View Princing
-          </Link>
+          <p>
+            <Link
+              to="/products"
+              className="inline-flex justify-center text-gray-900 hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center dark:text-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 mt-8"
+            >
+              View pricing
+            </Link>
+          </p>
         </p>
       </div>
 

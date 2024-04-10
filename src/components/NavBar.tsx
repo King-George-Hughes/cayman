@@ -20,6 +20,7 @@ export default function NavBar() {
     { name: "Home", url: "/" },
     { name: "About", url: "/about" },
     { name: "Packages", url: "/packages" },
+    { name: "Products", url: "/products" },
     { name: "Contact Us", url: "/contact-us" },
   ];
 

@@ -4,6 +4,7 @@ import App from "../App";
 import ContactUs from "../pages/ContactUs";
 import Packages from "../pages/Packages";
 import { useEffect } from "react";
+import Products from "../pages/Products";
 
 export const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/packages",
     element: <Packages />,
+  },
+  {
+    path: "/products",
+    element: <Products />,
   },
 ]);
 
