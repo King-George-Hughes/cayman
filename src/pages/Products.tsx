@@ -22,9 +22,20 @@ const Products = () => {
             <div className="w-full lg:w-1/2 order-1 sm:order-2">
               <div className="w-full">
                 <p className="text-center lg:text-start mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-                  Our retainer packages are competitively priced based on the
-                  services included and the level of support required. We offer
-                  flexible payment options to suit your budget.
+                  <p className="text-primaryColor2 underline">
+                    Ultimate Integrated Solution: HR, CRM, Project, &
+                    Administration.
+                  </p>
+                  Comprehensive business software solution that covers HR
+                  Management, CRM, Project Management, Finance, Remote Staff
+                  Management, and Overall Administration. This innovative tool
+                  redefines efficient management in the 21st century. Say
+                  goodbye to scattered tools and disconnected processes. ProDesk
+                  24/7 for Teams brings everything together under one roof,
+                  streamlining collaboration and boosting productivity. No
+                  matter the size of your company, our platform adapts to your
+                  needs, enabling you to focus on what truly matters - growing
+                  your business
                 </p>
               </div>
             </div>
